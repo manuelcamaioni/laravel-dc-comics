@@ -9,10 +9,10 @@
 </head>
 
 <body>
-    @foreach ($comics as $comic)
-        <h1>{{ $comic->title }}</h1>
-        <a href="{{ route('singleComic', $comic->id) }}">View</a>
-    @endforeach
+
+    <h1>{{ $comic->title }}</h1>
+    <p>{{ $comic->id }}</p>
+
 </body>
 
 </html>
