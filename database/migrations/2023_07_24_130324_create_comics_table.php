@@ -21,8 +21,9 @@ return new class extends Migration
             $table->string('price', 10);
             $table->text('series');
             $table->string('sale_date', 10);
-            $table->json('artists');
-            $table->json('writers');
+            $table->string('type', 100);
+            $table->text('artists');
+            $table->text('writers');
             $table->timestamps();
         });
     }
