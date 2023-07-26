@@ -1,1 +1,14 @@
 @import "~bootstrap/scss/bootstrap";
+div.info-card p {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+div.my-card {
+    color: white;
+    background-color: rgb(70, 70, 70);
+}
